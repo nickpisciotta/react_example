@@ -22,7 +22,7 @@
 
     private
       def event_params
-        params.require(:event).permit(:name, :description, :event_date
+        params.require(:event).permit(:name, :description, :event_date,
                                       :place)
       end
   end
